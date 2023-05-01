@@ -1,42 +1,175 @@
 <div class="breadcumb-wrapper background-image"
-	style="background-image: url(&quot;assets/img/bg/breadcumb-bg.jpg&quot;);">
-	<div class="container">
-		<div class="breadcumb-content">
-			<h1 class="breadcumb-title">Destination details</h1>
-			<!-- <ul class="breadcumb-menu">
+    style="background-image: url(&quot;assets/img/bg/breadcumb-bg.jpg&quot;);">
+    <div class="container">
+        <div class="breadcumb-content">
+            <h1 class="breadcumb-title">About Us</h1>
+            <!-- <ul class="breadcumb-menu">
 					<li><a href="https://www.adivaha.com/themeforest-travon/index.html">Home</a></li>
 					<li>Destination details</li>
 				</ul> -->
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
 <section class="space-top space-extra-bottom">
-	<div class="container">
-		<div class="destination-details">
-			<h2 class="h3 destination-title"><i class="fas fa-location-dot"></i>About Kailash Manasa Sarovar Yatra</h2>
-			<p class="mb-4">Situated in the south-western part of Tibet bordering the Kumaon hills and Nepal, is Mount
-				Kailash. It is supremely sacred mountain, cosmology connected with Mount Meru, the great mythological
-				mountain that forms the axis of this world system. Being a central watershed of Asia, it has always been
-				the most sacred of mountains for Hindus, Buddhists, Jains and Bons. Conventional wisdom says a single
-				circuit of Mt. Kailash wipes out the sins of a lifetime, 108 parikramas guarantees enlightenment. A
-				ritual bath in the sacred Manasa Sarovar Lake will deliver a pilgrim to Brahma's paradise and a drop
-				drink of its water relinquishes the sins of hundred lifetimes.
-			</p>
-			<div style="width: 100%; overflow: hidden; display: flex; margin-bottom: 20px;">
-				<div style="overflow: hidden; width: 50%; margin: 2px;">
-					<img id="banner_sm" src="images/51.jpg" alt="">
-				</div>
-				<div style="overflow: hidden; width: 50%; margin: 2px;">
-					<img id="banner_sm" src="images/52.jpg" alt="">
-				</div>
-				<style>
-					#banner_sm:hover {
-						transition: 2s;
-						transform: scale(1.2);
-					}
-				</style>
-			</div>
-			<p class="mb-40">This region is steeped in religion and mythology and every year hundreds of pilgrims
+    <div class="container">
+        <div class="destination-details">
+            <h2 class="h3 destination-title"><i class="fas fa-location-dot"></i>About Shri Hansaa Travels</h2>
+            <p class="mb-4">We introduce ourselves as a fast growing Tour Operator and Travel Agent based at Bangalore
+                and has been in the tourism business since 1990. Having started as a small ticketing agent, our Company
+                has established itself as a reputed concern offering multi-product travel services. We value our loyal
+                customers who have been returning to us giving an opportunity to serve you better. Our aim is to
+                constantly develop and provide innovative services based on a proactive approach to travel requirements.
+            </p>
+            <p class="mb-4">At Shri Hansaa Travels, you will find a team of dedicated professionals, each contributing
+                their optimum expertise to deliver and ensure complete satisfaction of our clients.
+            </p>
+            <p class="mb-4">Our team of tour planners and designers, expert tour organizers and professional tour guides
+                together with our friendly staff members, strive to give the guests an authentic and rich holiday
+                experience. We believe that when you are discovering a foreign land, what you need is one who
+                understands your requirements; a specialist who knows the destination, whose care and concern you can
+                depend on - indeed a person with whom you can share your travel experience.
+            </p>
+            <div style="width: 100%; overflow: hidden;">
+                <img id="banner" src="images/44.jpg" alt="">
+                <style>
+                    #banner:hover {
+                        transition: 4s;
+                        transform: scale(1.5);
+                    }
+                </style>
+            </div>
+            <br>
+            <div id="banner_bg1" style="display: flex; position: relative; margin: 40px 0px; align-items: center;">
+                <img id="bg_img1" src="images/30.jpg" alt="" style="display: flex; position: absolute; z-index: -1; opacity: 0.2;">
+                <div id=sm_img1 style="width: 50%; margin: 15px 20px; padding: 10px; border: 2px solid black; overflow: hidden;">
+                    <img id="sm_img" src="images/51.jpg" alt="" style="object-fit: cover;">
+                    <style>
+                        #sm_img:hover {
+                            transition: 3s;
+                            transform: scale(1.1);
+                        }
+                    </style>
+                </div>
+                <div id="sm_content1"
+                    style="width: 50%; background-color: rgba(245, 245, 245, 0.1); margin: 10px 0px; top: 0; right: 0;">
+                    <h2 class="h3 destination-title"><i class="fas fa-location-dot"></i>Services</h2>
+                    <p class="mb-4" style="color: black; font-weight:bolder;"> <b> Our team of tour planners and
+                            designers, expert tour organizers and professional tour guides together with our friendly
+                            staff members, strive to give the guests an authentic and rich holiday experience. We
+                            believe that when you are discovering a foreign land, what you need is one who understands
+                            your requirements; a specialist who knows the destination, whose care and concern you can
+                            depend on - indeed a person with whom you can share your travel experience.</b>
+                    </p>
+                    <p class="mb-4" style="color: black; font-weight:bolder;">
+                        <b> Our services include complete travel arrangements including airline/train ticketing, hotel
+                            accommodation and car rental reservations. We organize tours, sightseeing trips, all within
+                            your specific budget.</b>
+                    </p>
+                </div>
+            </div>
+            <div id="banner_bg2" style="display: flex; position: relative; margin-top: 20px; align-items: center;">
+                <img id="bg_img2" src="images/30.jpg" alt="" style="display: flex; position: absolute; z-index: -1; opacity: 0.2;">
+                <div id="sm_img2" style="width: 50%; margin: 15px 20px; padding: 10px; border: 2px solid black; overflow: hidden;">
+                    <img id="sm_img" src="images/51.jpg" alt="" style="object-fit: cover;">
+                    <style>
+                        #sm_img:hover {
+                            transition: 3s;
+                            transform: scale(1.1);
+                        }
+                    </style>
+                </div>
+                <div id="sm_content2"
+                    style="width: 50%; background-color: rgba(245, 245, 245, 0.1); margin: 10px 0px; top: 0; right: 0;">
+                    <h2 class="h3 destination-title"><i class="fas fa-location-dot"></i>Services</h2>
+                    <p class="mb-4" style="color: black; font-weight:bolder;"> <b> Our team of tour planners and
+                            designers, expert tour organizers and professional tour guides together with our friendly
+                            staff members, strive to give the guests an authentic and rich holiday experience. We
+                            believe that when you are discovering a foreign land, what you need is one who understands
+                            your requirements; a specialist who knows the destination, whose care and concern you can
+                            depend on - indeed a person with whom you can share your travel experience.</b>
+                    </p>
+                    <p class="mb-4" style="color: black; font-weight:bolder;">
+                        <b> Our services include complete travel arrangements including airline/train ticketing, hotel
+                            accommodation and car rental reservations. We organize tours, sightseeing trips, all within
+                            your specific budget.</b>
+                    </p>
+                </div>
+            </div>
+            <style>
+                #banner_bg2{
+                    display: none !important;
+                    position: absolute;
+                }
+                @media (max-width: 1060px){
+                    #banner_bg1 #bg_img1{
+                        display: none !important;
+                    }
+                    #banner_bg1 #sm_img1{
+                        width: 100% !important;
+                        position: relative !important;
+                    }
+                    #banner_bg1 #sm_content1{
+                        width: 0%;
+                        display: none;
+                    }
+                    #banner_bg2{
+                        display: block !important;
+                    }
+                    #banner_bg2 #bg_img2{
+                        display: none !important;
+                    }
+                    #banner_bg2 #sm_img2{
+                        width: 0% !important;
+                        display: none !important;
+                    }
+                    #banner_bg2 #bg_img2{
+                        display: none !important;
+                    }
+                    #banner_bg2 #sm_content2{
+                        width: 100% !important;
+                        position: relative !important;
+                    }
+                    #banner_bg2 #sm_img2{
+                        width: 0%;
+                        display: none;
+                    }
+                }
+            </style>
+            <div id="why" class="row" style="background-color: rgba(192, 179, 179, 0.356); padding: 30px;">
+                <div class="col-md-6" >
+                    <h2 class="h3 destination-title"><i class="fas fa-location-dot"></i>WHY CHOOSE US ?</h2>
+                    <p>Here are several factors that contribute for your ultimate choice...</p>
+                    <p><span>✅</span>15 years of experience organising this holy yatra.</p>
+                    <p><span>✅</span>More % of satisfied customers compared to our competitors</p>
+                    <p><span>✅</span>From Kathmandu to Pokhara by Bus</p>
+                    <p><span>✅</span>Well experienced Bangalore staff accompanying the tour.</p>
+                    <p><span>✅</span>No extra rental charges for Down Jackets provided at Kathmandu.</p>
+                    <p><span>✅</span>Jomsom - Mukthinath - Jomsom by Jeep.</p>
+                    <p><span>✅</span>Complimentary Duffel Bag, a Back pack, Raincoat, a cap for each</p>
+                    <p><span>✅</span>Provide best available accommodation at places of our stay in Tibet</p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="h5 destination-title"><i class="fas fa-location-dot"></i>BEFORE YOU UNDERTAKE THE TOUR</h2>
+                    <p>Ascertain whether the agency have successfully organized such tours previously, feedback from people who have travelled with them, how experienced the travel agency is, facilities provided for the yatris etc.</p>
+                    <h6>FOR OUR CUSTOMER'S OPINION</h6>
+                    <p><span>✅</span>Mr. Dakshina Murthy : 9880456939</p>
+                    <p><span>✅</span>Mr. Dheerendra : 9448993811</p>
+                    <p><span>✅</span>Mr. Ramesh KH : 9945641917</p>
+                    <p><span>✅</span>Mr. Shivaprasad : 984506370</p>
+                    <p><span>✅</span>Mr. Gopinath D : 9740458333</p>
+                    <p><span>✅</span>Mr. Ramakrishna : 9480052045</p>
+                </div>
+            </div>
+            <style>
+                #why p{
+                    color: black;
+                }
+                #why span{
+                    padding: 3px;
+                    margin-right: 5px;
+                }
+            </style>
+            <!-- <p class="mb-40">This region is steeped in religion and mythology and every year hundreds of pilgrims
 				traverse some of the remotest and toughest regions of the Himalayas to pay their obeisance to the Lord.
 				It is a land where Lord Shiva lives with his consort Parvati. According to ancient religious texts, the
 				abode of creator Brahma is called Brahmaloka, the abode of Lord Vishnu is called Vaikunta and the abode
@@ -58,16 +191,16 @@
 				Darchen including Manasa Sarovara Parikrama of 102 Kms. by road.</p>
 
 			<div style="width: 100%; overflow: hidden;">
-				<img id="banner" src="images/44.jpg" alt="">
+				<img id="banner" src="images/30.jpg" alt="">
 				<style>
 					#banner:hover {
 						transition: 4s;
 						transform: scale(1.5);
 					}
 				</style>
-			</div>
+			</div> -->
 
-			<!-- <div class="row mb-40 ot-carousel slider-shadow slick-initialized slick-slider" data-slide-show="3"
+            <!-- <div class="row mb-40 ot-carousel slider-shadow slick-initialized slick-slider" data-slide-show="3"
 					data-md-slide-show="2" data-sm-slide-show="1">
 					<div class="slick-list draggable">
 						<div class="slick-track"
@@ -165,7 +298,7 @@
 						</div>
 					</div>
 				</div> -->
-			<br>
+            <!-- <br>
 			<h3 class="h4 mb-20">Kailash Yatra post Earth Quake</h3>
 			<p class="mb-4">We are all aware that the entire Nepal underwent a catastrophe last year due to earthquake.
 				The impact was such that the epicentre was near the Tibet border, Kodari, affecting lives both in Nepal
@@ -181,8 +314,8 @@
 				proceed to Taklakot by Bus.A dayâ€™s time is given for acclimatization and later proceed to Hore
 				(Horchu) by the side of Manasa Sarovar and also cover Manasa Sarovara Parikrama of 102 Kms. on road by
 				the bus and proceed to Darchen (Base camp), we have a common route for the Kailash Parikrama as before.
-			</p>
-			<!-- <div class="row mb-30 ot-carousel slider-shadow slick-initialized slick-slider" data-slide-show="3"
+			</p> -->
+            <!-- <div class="row mb-30 ot-carousel slider-shadow slick-initialized slick-slider" data-slide-show="3"
 					data-md-slide-show="2" data-sm-slide-show="1">
 					<div class="slick-list draggable">
 						<div class="slick-track"
@@ -280,7 +413,7 @@
 						</div>
 					</div>
 				</div> -->
-			<div style="width: 100%; overflow: hidden;">
+            <!-- <div style="width: 100%; overflow: hidden;">
 				<img id="banner" src="images/8.jpg" alt="">
 				<style>
 					#banner:hover {
@@ -288,23 +421,23 @@
 						transform: scale(1.5);
 					}
 				</style>
-			</div>
-		</div>
-	</div>
+			</div> -->
+        </div>
+    </div>
 </section>
 <section class="" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half" style="margin-bottom: -137px;">
-	<div class="container">
-		<div class="newsletter-wrap background-image"
-			style="background-image: url(&quot;assets/img/bg/subscribe_bg_1.svg&quot;);">
-			<h2 class="sec-title text-white mb-2">Get Special Offers And More From Travon</h2>
-			<p class="text-white fs-md mb-4">Sign up now and get the best deals straight in your inbox!</p>
-			<form class="newsletter-form">
-				<div class="form-group"><input class="form-control" type="email" placeholder="Email Address"
-						required=""> <i class="fal fa-envelope"></i></div><button type="submit"
-					class="ot-btn">Subscribe</button>
-			</form>
-		</div>
-	</div>
+    <div class="container">
+        <div class="newsletter-wrap background-image"
+            style="background-image: url(&quot;assets/img/bg/subscribe_bg_1.svg&quot;);">
+            <h2 class="sec-title text-white mb-2">Get Special Offers And More From Shri Hansaa Travels</h2>
+            <p class="text-white fs-md mb-4">Sign up now and get the best deals straight in your inbox!</p>
+            <form class="newsletter-form">
+                <div class="form-group"><input class="form-control" type="email" placeholder="Email Address"
+                        required=""> <i class="fal fa-envelope"></i></div><button type="submit"
+                    class="ot-btn">Subscribe</button>
+            </form>
+        </div>
+    </div>
 </section>
 <br>
 <br>

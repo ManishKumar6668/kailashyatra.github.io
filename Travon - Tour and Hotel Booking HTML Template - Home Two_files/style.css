@@ -1064,7 +1064,6 @@ textarea.is-invalid {
 }
 
 .ot-mobile-menu ul li a:before {
-    content: "\f105";
     font-family: var(--icon-font);
     position: absolute;
     left: 0;
@@ -1114,12 +1113,11 @@ textarea.is-invalid {
 }
 
 .ot-mobile-menu ul .ot-item-has-children>a .ot-mean-expand:before {
-    content: "\f067";
+    content: "\2192";
     font-family: var(--icon-font)
 }
 
 .ot-mobile-menu ul .ot-item-has-children>a:after {
-    content: "\f067";
     font-family: var(--icon-font);
     width: 22px;
     height: 22px;
@@ -1134,12 +1132,12 @@ textarea.is-invalid {
 }
 
 .ot-mobile-menu ul .ot-item-has-children.ot-active>a .ot-mean-expand:before {
-    content: "\f068"
+    content: "\2191";
 }
-
+/* 
 .ot-mobile-menu ul .ot-item-has-children.ot-active>a:after {
-    content: "\f068"
-}
+    content: "\002b";
+} */
 
 .ot-mobile-menu>ul {
     padding: 0 40px
@@ -1722,7 +1720,6 @@ textarea.is-invalid {
 }
 
 .scroll-top:after {
-    content: "\f062";
     font-family: var(--icon-font);
     position: absolute;
     text-align: center;
@@ -1744,7 +1741,7 @@ textarea.is-invalid {
 .scroll-top svg {
     color: var(--theme-color);
     border-radius: 50%;
-    background: var(--white-color)
+    background: orange
 }
 
 .scroll-top svg path {
@@ -3127,7 +3124,7 @@ a.text-theme:hover,
 .widget_pages a::before,
 .widget_archive a::before,
 .widget_categories a::before {
-    content: "\f061";
+    /* content: "\f061"; */
     position: absolute;
     right: 25px;
     top: 17px;
@@ -3883,7 +3880,7 @@ a.text-theme:hover,
 .footer-widget.widget_archive a:before,
 .footer-widget.widget_categories a:before,
 .footer-widget.widget_nav_menu a:before {
-    content: "\f061";
+    /* content: "\f061"; */
     font-weight: 900;
     left: 0;
     top: 1px;
@@ -4159,7 +4156,6 @@ a.text-theme:hover,
 }
 
 .main-menu ul li.menu-item-has-children>a:after {
-    content: "\f078";
     position: relative;
     font-family: var(--icon-font);
     margin-left: 5px;
@@ -4228,7 +4224,6 @@ a.text-theme:hover,
 }
 
 .main-menu ul.sub-menu li.menu-item-has-children>a:after {
-    content: "\f105";
     float: right;
     top: 1px
 }
@@ -4240,7 +4235,6 @@ a.text-theme:hover,
 }
 
 .main-menu ul.sub-menu li a:before {
-    content: "\f3de";
     position: absolute;
     top: 9px;
     left: 0;
@@ -8243,11 +8237,11 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
     font-size: 48px;
     margin-top: -0.26em;
     margin-bottom: 10px;
-    color: var(--white-color)
+    color: orange;
 }
 
 .offer-card__text {
-    color: var(--white-color);
+    color: orangered;
     max-width: 274px;
     margin-bottom: 35px
 }
@@ -10814,7 +10808,13 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 .space-top {
     padding-top: var(--section-space)
 }
-
+.space-top .video_div{
+    width: 100%;
+}
+.space-top .video_div video{
+    object-fit: cover;
+    width: 100%;
+}
 .space,
 .space-bottom {
     padding-bottom: var(--section-space)

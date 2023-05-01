@@ -27,7 +27,7 @@
 		<div class="container">
 			<div class="newsletter-wrap background-image"
 				style="background-image: url(&quot;assets/img/bg/subscribe_bg_1.svg&quot;);">
-				<h2 class="sec-title text-white mb-2">Get Special Offers And More From Travon</h2>
+				<h2 class="sec-title text-white mb-2">Get Special Offers And More From Shri Hansaa Travels</h2>
 				<p class="text-white fs-md mb-4">Sign up now and get the best deals straight in your inbox!</p>
 				<form class="newsletter-form">
 					<div class="form-group"><input class="form-control" type="email" placeholder="Email Address"

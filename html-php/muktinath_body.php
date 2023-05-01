@@ -13,30 +13,25 @@
 <section class="space-top space-extra-bottom">
 	<div class="container">
 		<div class="destination-details">
-			<h2 class="h3 destination-title"><i class="fas fa-location-dot"></i>About Kailash Manasa Sarovar Yatra</h2>
-			<p class="mb-4">Situated in the south-western part of Tibet bordering the Kumaon hills and Nepal, is Mount
-				Kailash. It is supremely sacred mountain, cosmology connected with Mount Meru, the great mythological
-				mountain that forms the axis of this world system. Being a central watershed of Asia, it has always been
-				the most sacred of mountains for Hindus, Buddhists, Jains and Bons. Conventional wisdom says a single
-				circuit of Mt. Kailash wipes out the sins of a lifetime, 108 parikramas guarantees enlightenment. A
-				ritual bath in the sacred Manasa Sarovar Lake will deliver a pilgrim to Brahma's paradise and a drop
-				drink of its water relinquishes the sins of hundred lifetimes.
+			<h2 class="h3 destination-title"><i class="fas fa-location-dot"></i>Mukhtinath</h2>
+			<p class="mb-4">The central shrine of Sri Muktinath is considered one of the eight most sacred shrines for Hindu Vaishnavas known as Svayam Vyakta Ksetras , the other seven being Srirangam, Srimushnam, Tirupati, Naimisharanya, Thotadri, Pushkar and Badrinath. The temple is very small. Muktinath is one of the most ancient Hindu temples of God Vishnu. The murti is of gold and is tall enough to compare with a man. The prakaram(outer courtyard) has 108 bull faces through which water is poured. It is of freezing temperature.The sacred water that flows in 108 pipes around the temple complex denote all sacred Pushkarini waters (Temple Tanks) from all 108 Sri Vaishnava Divya Desams including Srirangam, Tirumala, Vaikunta, where the devotees take their sacred bath even in the freezing temperatures. There is an old Buddhist monk present in the temple. The worship is conducted by Buddhists.
 			</p>
 			<div style="width: 100%; overflow: hidden; display: flex; margin-bottom: 20px;">
 				<div style="overflow: hidden; width: 50%; margin: 2px;">
-					<img id="banner_sm" src="images/51.jpg" alt="">
+					<img id="banner_sm" src="images/43.jpg" alt="">
 				</div>
 				<div style="overflow: hidden; width: 50%; margin: 2px;">
-					<img id="banner_sm" src="images/52.jpg" alt="">
+					<img id="banner_sm" src="images/56.jpg" alt="">
 				</div>
 				<style>
 					#banner_sm:hover {
 						transition: 2s;
 						transform: scale(1.2);
+                        height: 100%;
 					}
 				</style>
 			</div>
-			<p class="mb-40">This region is steeped in religion and mythology and every year hundreds of pilgrims
+			<!-- <p class="mb-40">This region is steeped in religion and mythology and every year hundreds of pilgrims
 				traverse some of the remotest and toughest regions of the Himalayas to pay their obeisance to the Lord.
 				It is a land where Lord Shiva lives with his consort Parvati. According to ancient religious texts, the
 				abode of creator Brahma is called Brahmaloka, the abode of Lord Vishnu is called Vaikunta and the abode
@@ -58,14 +53,14 @@
 				Darchen including Manasa Sarovara Parikrama of 102 Kms. by road.</p>
 
 			<div style="width: 100%; overflow: hidden;">
-				<img id="banner" src="images/44.jpg" alt="">
+				<img id="banner" src="images/30.jpg" alt="">
 				<style>
 					#banner:hover {
 						transition: 4s;
 						transform: scale(1.5);
 					}
 				</style>
-			</div>
+			</div> -->
 
 			<!-- <div class="row mb-40 ot-carousel slider-shadow slick-initialized slick-slider" data-slide-show="3"
 					data-md-slide-show="2" data-sm-slide-show="1">
@@ -165,7 +160,7 @@
 						</div>
 					</div>
 				</div> -->
-			<br>
+			<!-- <br>
 			<h3 class="h4 mb-20">Kailash Yatra post Earth Quake</h3>
 			<p class="mb-4">We are all aware that the entire Nepal underwent a catastrophe last year due to earthquake.
 				The impact was such that the epicentre was near the Tibet border, Kodari, affecting lives both in Nepal
@@ -181,7 +176,7 @@
 				proceed to Taklakot by Bus.A dayâ€™s time is given for acclimatization and later proceed to Hore
 				(Horchu) by the side of Manasa Sarovar and also cover Manasa Sarovara Parikrama of 102 Kms. on road by
 				the bus and proceed to Darchen (Base camp), we have a common route for the Kailash Parikrama as before.
-			</p>
+			</p> -->
 			<!-- <div class="row mb-30 ot-carousel slider-shadow slick-initialized slick-slider" data-slide-show="3"
 					data-md-slide-show="2" data-sm-slide-show="1">
 					<div class="slick-list draggable">
@@ -280,7 +275,7 @@
 						</div>
 					</div>
 				</div> -->
-			<div style="width: 100%; overflow: hidden;">
+			<!-- <div style="width: 100%; overflow: hidden;">
 				<img id="banner" src="images/8.jpg" alt="">
 				<style>
 					#banner:hover {
@@ -288,7 +283,7 @@
 						transform: scale(1.5);
 					}
 				</style>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
@@ -296,7 +291,7 @@
 	<div class="container">
 		<div class="newsletter-wrap background-image"
 			style="background-image: url(&quot;assets/img/bg/subscribe_bg_1.svg&quot;);">
-			<h2 class="sec-title text-white mb-2">Get Special Offers And More From Travon</h2>
+			<h2 class="sec-title text-white mb-2">Get Special Offers And More From Shri Hansaa Travels</h2>
 			<p class="text-white fs-md mb-4">Sign up now and get the best deals straight in your inbox!</p>
 			<form class="newsletter-form">
 				<div class="form-group"><input class="form-control" type="email" placeholder="Email Address"

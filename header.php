@@ -40,6 +40,9 @@
 		href="https://www.adivaha.com/themeforest-travon/assets/img/favicons/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16"
 		href="https://www.adivaha.com/themeforest-travon/assets/img/favicons/favicon-16x16.png"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="manifest" href="https://www.adivaha.com/themeforest-travon/assets/img/favicons/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
@@ -50,6 +53,7 @@
 	<link rel="stylesheet" href="./Travon - Tour and Hotel Booking HTML Template - Home Two_files/app.min.css">
 	<link rel="stylesheet" href="./Travon - Tour and Hotel Booking HTML Template - Home Two_files/fontawesome.min.css">
 	<link rel="stylesheet" href="./Travon - Tour and Hotel Booking HTML Template - Home Two_files/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style type="text/css">
 		@font-face {
 			font-family: Roboto;
@@ -64,9 +68,9 @@
 	</div> -->
 	<!-- <div class="sidemenu-wrapper d-none d-lg-block">
 		<div class="sidemenu-content"><button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>-->
-			<!-- <div class="widget footer-widget">
+	<!-- <div class="widget footer-widget">
 				<div class="ot-widget-about">
-					<div class="about-logo"><a href="homepage1.php"><img
+					<div class="about-logo"><a href="index.php"><img
 								src="images/logo1.png"
 								alt="Travon"></a></div>
 					<p class="about-text">Globally communicate adaptive e-markets &amp; timely manufactured product.
@@ -133,21 +137,24 @@
 		</div>
 	</div>-->
 	<!-- <div class="popup-search-box d-none d-lg-block"><button class="searchClose"><i class="fal fa-times"></i></button>
-		<form action="homepage1.php"><input type="text"
+		<form action="index.php"><input type="text"
 				placeholder="What are you looking for?" spellcheck="false" data-ms-editor="true"> <button
 				type="submit"><i class="fal fa-search"></i></button></form>
 	</div> -->
 	<div class="ot-menu-wrapper">
-		<div class="ot-menu-area text-center"><button class="ot-menu-toggle"><i class="fal fa-times"></i></button>
-			<div class="mobile-logo"><a href="homepage1.php"><img src="images/logo.png"></a></div>
+		<div class="ot-menu-area text-center"><button class="ot-menu-toggle"><i class='fas fa-caret-left'
+					style='font-size:24px'></i></button>
+			<div class="mobile-logo"><a href="index.php"><img src="images/logo1.png"></a></div>
 			<div class="ot-mobile-menu">
 				<ul>
-					<li class="  ot-item-has-children"><a href="homepage1.php">Home<span
-								class="ot-mean-expand"></span></a>
-						<!-- <ul class="sub-menu ot-submenu" style="display: none;">
-							<li><a href="https://www.adivaha.com/themeforest-travon/index.html">Home One</a></li>
-							<li><a href="https://www.adivaha.com/themeforest-travon/index-2.html">Home Two</a></li>
-						</ul> -->
+					<li><a href="index.php">Home<span class="ot-mean-expand"></span></a>
+					</li>
+					<li class="  ot-item-has-children"><a href="#">About Us<span class="ot-mean-expand"></span></a>
+						<ul class="sub-menu ot-submenu" style="display: none;">
+							<li><a href="about_hansaa_travels.php">About Shri Hansaa Travels</a>
+							</li>
+							<li><a href="guidlines.php">Guidlines</a></li>
+						</ul>
 					</li>
 					<li class="  ot-item-has-children"><a href="#">Destination<span class="ot-mean-expand"></span></a>
 						<ul class="sub-menu ot-submenu" style="display: none;">
@@ -157,24 +164,24 @@
 									Details</a></li>
 						</ul>
 					</li>
-					<li class="  ot-item-has-children"><a href="#">Tour Types<span class="ot-mean-expand"></span></a>
+					<!-- <li class="  ot-item-has-children"><a href="#">Tour Types<span class="ot-mean-expand"></span></a>
 						<ul class="sub-menu ot-submenu" style="display: none;">
 							<li><a href="tour.php">Tour</a></li>
 							<li><a href="tour_details.php">Tour Details</a>
 							</li>
 						</ul>
-					</li>
+					</li> -->
 					<li class="  ot-item-has-children"><a href="#">Pages<span class="ot-mean-expand"></span></a>
 						<ul class="sub-menu ot-submenu" style="display: none;">
-							<li><a href="about.php">About Us</a></li>
+
 							<li><a href="team.php">Team</a></li>
 							<li><a href="our_team.php">Team Details</a>
 							</li>
 							<li><a href="gallery.php">Gallery</a></li>
-							<li><a href="404page.php">Error Page</a></li>
+							<!-- <li><a href="404page.php">Error Page</a></li> -->
 						</ul>
 					</li>
-					<li class="  ot-item-has-children">Blog<span class="ot-mean-expand"></span>
+					<li class="ot-item-has-children"><a href="#">Blog<span class="ot-mean-expand"></span></a>
 						<ul class="sub-menu ot-submenu" style="display: none;">
 							<li><a href="blog_post.php">Blog</a></li>
 							<li><a href="blog_details.php">Blog Details</a>
@@ -192,19 +199,29 @@
 				<div class="container">
 					<div class="row align-items-center justify-content-between">
 						<div class="col-auto">
-							<div class="header-logo"><a href="homepage1.php"><img src="images/logo.png"
-										alt="Kailash Yatra" style="width: 450px; height: 100px;"></a></div>
+							<div class="header-logo"><a href="index.php"><img src="images/logo.png" alt="Kailash Yatra"
+										style="width: 300px; height: 100px;"></a></div>
 						</div>
 						<div class="col-auto">
 							<nav class="main-menu d-none d-lg-inline-block">
 								<ul>
-									<li class=""><a href="homepage1.php">Home</a>
+									<li class=""><a href="index.php">Home</a>
 										<!-- <ul class="sub-menu">
 											<li><a href="https://www.adivaha.com/themeforest-travon/index.html">Home
 													One</a></li>
 											<li><a href="https://www.adivaha.com/themeforest-travon/index-2.html">Home
 													Two</a></li>
 										</ul> -->
+									</li>
+									<li><a href="">About
+											Us</a>
+										<ul class="sub-menu">
+											<li class=" "><a href="about_hansaa_travels.php">About Shri Hansaa
+													Travels</a>
+											</li>
+											<li class=" "><a href="guidlines.php">Guidlines</a>
+											</li>
+										</ul>
 									</li>
 									<li class=""><a href="#">Destination</a>
 										<ul class="sub-menu">
@@ -214,7 +231,9 @@
 													Details</a></li>
 										</ul>
 									</li>
-									<li class=" "><a href="#">Tour
+									<li><a href="gallery.php">Gallery</a>
+									</li>
+									<!-- <li class=" "><a href="#">Tour
 											Types</a>
 										<ul class="sub-menu">
 											<li><a href="tour.php">Tour</a>
@@ -222,28 +241,28 @@
 											<li><a href="tour_details.php">Tour
 													Details</a></li>
 										</ul>
-									</li>
-									<li class=" "><a href="#">Pages</a>
+									</li> -->
+									<!-- <li class=" "><a href="#">Pages</a>
 										<ul class="sub-menu">
-											<li><a href="about.php">About
-													Us</a></li>
+											<li class=" "><a href="#">Blog</a>
+												<ul class="sub-menu">
+													<li><a href="blog_post.php">Blog</a>
+													</li>
+													<li><a href="blog_details.php">Blog Details</a></li>
+												</ul>
+											</li>
 											<li><a href="team.php">Team</a>
 											</li>
 											<li><a href="our_team.php">Team
 													Details</a></li>
-											<li><a href="gallery.php">Gallery</a>
-											</li>
+											
 											<li><a href="404page.php">Error
 													Page</a></li>
+
 										</ul>
-									</li>
-									<li class=" "><a href="#">Blog</a>
-										<ul class="sub-menu">
-											<li><a href="blog_post.php">Blog</a>
-											</li>
-											<li><a href="blog_details.php">Blog Details</a></li>
-										</ul>
-									</li>
+									</li> -->
+
+									<li><a href="https://hansaatravels.com/">Hansaa Travels</a></li>
 									<li><a href="contact.php">Contact Us</a>
 									</li>
 								</ul>
@@ -251,15 +270,15 @@
 							<button type="button" class="ot-menu-toggle d-inline-block d-lg-none"><i
 									class="far fa-bars"></i></button>
 						</div>
-						<div class="col-auto d-none d-xl-block">
+						<!-- <div class="col-auto d-none d-xl-block">
 							<div class="header-button">
-								<!-- <button type="button" class="icon-btn searchBoxToggler"><i
-										class="far fa-search"></i></button>  -->
-										<!-- <a href="homepage1.php"
-									class="icon-btn sideMenuToggler"><i class="fa-regular fa-bars"></i></a> -->
+								 <button type="button" class="icon-btn searchBoxToggler"><i
+										class="far fa-search"></i></button>  
+										<a href="index.php"
+									class="icon-btn sideMenuToggler"><i class="fa-regular fa-bars"></i></a>
 									 <a href="contact.php" class="ot-btn ml-25">Book Your Stay</a>
 								</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>

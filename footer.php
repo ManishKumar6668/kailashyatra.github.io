@@ -7,7 +7,7 @@
 						<div class="widget footer-widget">
 							<div class="ot-widget-about">
 								<div class="about-logo"><a
-										href="homepage1.php"><img
+										href="index.php"><img
 											src="images/logo1.png"
 											alt="Travon"></a></div>
 								<p class="about-text">Globally communicate adaptive e-markets &amp; timely manufactured
@@ -26,7 +26,7 @@
 						<div class="widget widget_nav_menu footer-widget">
 							<h3 class="widget_title">Quick Links</h3>
 							<div class="menu-all-pages-container">
-								<ul class="menu">
+								<ol class="menu">
 									<li><a href="about.php">About Us</a>
 									</li>
 									<li><a href="tour.php">Tour</a></li>
@@ -36,7 +36,7 @@
 									<li><a href="blog_post.php">Blog</a></li>
 									<li><a href="contact.php">Contact Us</a>
 									</li>
-								</ul>
+								</ol>
 							</div>
 						</div>
 					</div>
@@ -46,18 +46,19 @@
 							<div class="ot-widget-contact">
 								<div class="info-box">
 									<div class="info-box_icon"><i class="fas fa-location-dot"></i></div>
-									<p class="info-box_text">5807 W 63rd St, Chicago, IL 60638, United States</p>
+									<p class="info-box_text">#640, 40th Cross, 8th Block, Jayanagar, Bangalore - 560 070. Karnataka State, INDIA.</p>
 								</div>
 								<div class="info-box">
 									<div class="info-box_icon"><i class="fas fa-phone"></i></div>
-									<p class="info-box_text"><a href="tel:+11234567890" class="info-box_link">+(1) 123
-											456 7890</a> <a href="tel:+10987654321" class="info-box_link">+(1) 098 765
-											4321</a></p>
+									<p class="info-box_text"><a href="tel:011-2664 3276" class="info-box_link"> 011-2664 3276</a> <a href="tel:+918026543891" class="info-box_link">+91-8026543891</a></p>
 								</div>
 								<div class="info-box">
 									<div class="info-box_icon"><i class="fas fa-envelope"></i></div>
-									<p class="info-box_text"><a href="mailto:info@travon.com"
-											class="info-box_link">info@travon.com</a></p>
+									<p class="info-box_text"><a href="mailto:hansaatravels@gmail.com"
+											class="info-box_link">hansaatravels@gmail.com</a></p>
+									<p class="info-box_text"><a href="mailto:info@hansaatravels.com"
+											class="info-box_link">
+											info@hansaatravels.com</a></p>
 								</div>
 							</div>
 						</div>
@@ -104,8 +105,8 @@
 			<div class="container">
 				<div class="row justify-content-between align-items-center">
 					<div class="col-lg-6">
-						<p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2023 <a
-								href="homepage1.php">SHRI HANSAA TRAVELS</a>. All Rights
+						<p class="copyright-text">Copyright &copy; 2023 <a
+								href="index.php">SHRI HANSAA TRAVELS</a>. All Rights
 							Reserved.</p>
 					</div>
 					<div class="col-lg-6 text-end d-none d-lg-block">
@@ -133,6 +134,7 @@
 	<script src="./Travon - Tour and Hotel Booking HTML Template - Home Two_files/main.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 	<script>
 		
 		function returnCommentSymbol(language = "javascript") {
